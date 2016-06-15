@@ -3,6 +3,7 @@
 The raw data can be obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and should be stored in the working directory.
 
 The skript ``run_analysis.R`` performs the following steps: 
+
 1. Loading and cleaning of the labels of the carried out activities
 2. Loading and cleaning of the labels of the features
 3. Loading the test and training data and concatenating it with the activity code and the activity 
