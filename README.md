@@ -12,7 +12,7 @@ The skript ``run_analysis.R`` performs the following steps:
 
 Step 1: The activity labels are lowercased and underscores are removed.
 
-Step 2: Based on the raw features labels features.txt the columns containing the relevant data (mean and std) are determined. Afterwards, the labels are lowercased and brackets are removed to improve readability.
+Step 2: Based on the raw features labels features.txt the columns containing the relevant data (mean and std) are determined (The variable ``meanFreq`` is also removed.). Afterwards, the labels are lowercased and brackets are removed to improve readability.
 
 Step 3: Based on step 2, the relevant columns are extracted from the test and training data (mean and std).  Afterwards, a data frame is created containing the activity ID (1-5) and the activity, e.g. standing for all 10,299 rows. 
 
