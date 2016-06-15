@@ -4,7 +4,7 @@ To avoid redundancy, the following passages only include the amendments to the o
 
 ###Variables
 * Subject (integer): The identifier of the subject which ranges from 1 to 30
-* Activity (character): The carried out activity: “laying”, “sitting”, “standing”, “walking”, “walkingdownstairs”, and “walkingupstairs”  
+* Activity (character): The carried out activity: â€œlayingâ€, â€œsittingâ€, â€œstandingâ€, â€œwalkingâ€, â€œwalkingdownstairsâ€, and â€œwalkingupstairsâ€  
 * tbodyacc-xyz
 * tgravityacc-xyz
 * tbodyaccjerk-xyz
@@ -25,8 +25,11 @@ To avoid redundancy, the following passages only include the amendments to the o
 
 Note: 
 * '-xyz' is used to denote 3-axial signals in the X, Y and Z directions. 
-* The acceleration variables (containing “acc” in the label) are measured in gravity units, i.e. in relation to 9.81 m/s^2.
-* The gyroscopic variables (containing “gyro” in the label) are measured in radian per second.
+* The acceleration variables (containing â€œaccâ€ in the label) are measured in gravity units, i.e. in relation to 9.81 m/s^2.
+* The gyroscopic variables (containing â€œgyroâ€ in the label) are measured in radian per second.
+
+
+###Description of the data frame
 
 For all the 33 numeric variables, the mean and the standard deviation are extracted. The file ``tidy_data.txt`` consists of 10,299 observations. This file is consolidated by taking the average of each variable for each activity and each subject. This lead to the file ``tidy_data2.txt`` containing 180 rows (5 activities for 30 subjects each).
   
