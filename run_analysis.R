@@ -66,4 +66,4 @@ final_data<-dcast(melting,subject + activity ~ variable, mean)
 names(final_data)<-gsub("mean","grandmean",names(final_data)) 
 
 # Saving the data table as "tidy_data2.txt"
-write.table(final_data,"tidy_data2.txt")
+write.table(final_data,"tidy_data2.txt",row.name=FALSE)
