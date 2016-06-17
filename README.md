@@ -19,8 +19,9 @@ Step 3: Based on step 2, the relevant columns are extracted from the test and tr
 Step 4: The vector for the subject, the data frame, the training and the test data are merged. This leads to a 10,299x68 data frame which is saved as ``tidy_data.txt``. 
 
 Step 5: Using the reshape2 package, the mean per subject and activity is calculated. For this purpose, the data are melted utilizing subject and activity as ids and all other variables as measure variables. Afterwards, the melted data frame is used to calculate the mean for each subject and each activity.   
-Since the mean is now the grand mean, the labels are adjusted. The resulting data frame is save as ``tidy_data.2.txt``.  
+Since the mean is now the grand mean, the labels are adjusted. The resulting data frame is save as ``tidy_data.2.txt``. 
 
 For further explanations, I would like to refer to the ``run_analysis.R`` skript where comprehensive comments are provided.
-  
-      
+
+###Description of the data frame
+For all the 33 numeric variables, the mean and the standard deviation are extracted. The file ``tidy_data.txt`` consists of 10,299 observations. This file is consolidated by taking the average of each variable for each activity and each subject. This lead to the file ``tidy_data2.txt`` containing 180 rows (5 activities for 30 subjects each).
