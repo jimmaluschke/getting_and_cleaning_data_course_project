@@ -28,8 +28,8 @@ Note:
 * '-xyz' is used to denote 3-axial signals in the X, Y and Z directions. 
 * The acceleration variables (containing “acc” in the label) are measured in gravity units, i.e. in relation to 9.81 m/s^2.
 * The gyroscopic variables (containing “gyro” in the label) are measured in radian per second.
-* The body linear acceleration and angular velocity were derived in time to obtain *Jerk* signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the *magnitude* of these three-dimensional signals were calculated using the Euclidean norm, e.g. tBodyAccMag. 
-* Fast Fourier Transform (FFT) was applied to some of these signals producing *f*BodyAcc-XYZ etc.
+* The body linear acceleration and angular velocity were derived in time to obtain **Jerk** signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the **magnitude** of these three-dimensional signals were calculated using the Euclidean norm, e.g. tBodyAccMag. 
+* Fast Fourier Transform (FFT) was applied to some of these signals producing **f**BodyAcc-XYZ etc.
 
 
 
